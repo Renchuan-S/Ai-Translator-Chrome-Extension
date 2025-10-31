@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Kimi Assistant",
+  "name": "Su Assistant",
   "version": "1.0",
   "description": "A Chrome extension for translation and summarization using Kimi API",
   "permissions": [
@@ -15,7 +15,7 @@
     "type": "module"
   },
   "action": {
-    "default_title": "Kimi Assistant",
+    "default_title": "Su Assistant",
     "default_icon": {
       "16": "icon.png",
       "48": "icon.png",

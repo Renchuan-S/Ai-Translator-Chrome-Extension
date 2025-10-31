@@ -2,19 +2,20 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Kimi Assistant</title>
+    <title>Su Assistant</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Kimi Assistant</h1>
-        </header>
+        <div class="header">
+            <h1>Su Assistant</h1>
+        </div>
         
         <div class="mode-selector">
             <select id="mode" class="select-style">
                 <option value="translate">翻译模式</option>
                 <option value="summarize">总结模式</option>
+                <option value="chat">聊天模式</option>
             </select>
         </div>
 
@@ -36,10 +37,12 @@
         <div class="button-group">
             <button id="translateBtn" class="action-btn">翻译</button>
             <button id="summarizeBtn" class="action-btn">总结</button>
+            <button id="sendBtn" class="action-btn">发送</button>
             <button id="clearBtn" class="action-btn action-btn-secondary">清除</button>
         </div>
 
         <div class="result-area">
+            <div id="chatHistory" class="chat-history"></div>
             <div id="resultText" class="result-content"></div>
         </div>
     </div>
